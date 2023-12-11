@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+
+
+    <title>Eugene's Lab</title>
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+    <header id="header">
+        <nav>
+            <h2 class = "welcome"><script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+                <lord-icon
+                src="https://cdn.lordicon.com/bhfjfgqz.json"
+                trigger="hover"
+                colors="primary:#fff"
+                state="intro"
+                style="padding-top:4px; width:25px;height:25px">
+                </lord-icon> Eugene's Lab</h2>
+            
+            <ul id ="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class = "container">        
+            <div class = "profile">
+                <img id = "picture" src="350121965_970109930690328_6286616757133856475_n.jpg">
+            </div>
+            <div class="header-text">
+                <p>Software Engineer / </br>Front End Web Developer</p>
+                <h1>Hi I'm <span>Eugene</span></h1>
+            </div>
+        </div>
+    </header>
+
+<!--------about-------->
+<section id="about" class="about">
+        <div class = "container">
+            <div class = "row">
+                <div class="about-col-1">
+                    <img src="profile1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello there! I'm Eugene, a passionate about learning new things on a journey of exploration and 
+                        growth in programming. I believe in embracing every moment and making the most of each 
+                        opportunity that comes my way. Originally from Caloocan City, I've always had an innate 
+                        curiosity about the world in professional programming. </br>
+                        This curiosity led me to pursue a degree in Bachelor of Science in Computer Science at
+                        St. Clare College of Caloocan, My academic journey not only provided me with knowledge
+                        but also nurtured my critical thinking and problem-solving skills.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span></br>HTML/CSS/JavaScript/PHP</li>
+                            <li><span>Software Engineering</span></br>C#.NET/Microsoft SQL Server Management</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Tertiary</span></br>Bachelor of Science in Computer Science</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<!--------experience------->
+<section id="experience" class="experience">
+        <div class="container">
+            <h1 class="sub-title">My Experience</h1>
+            <div class="experience-list">
+                <div>
+                    <h2>Big Media PH Digital Corporation (INTERN) </h2>
+                    <h3>Graphic Artist</h3>
+                    <p></br>Maintaining the account assets in Social Media and creating unique Posters.</p>
+                </div>
+                <div>
+                    <h2>JCBA SOLUTIONS AND CONSULTANCY INC. (INTERN)</h2>
+                    <h3>Full Stack Web Developer(OJT)</h3>
+                    <p></br>Maintaining and debugging SAP B1 web page using HTML, CSS, JavaScript, PHP and Microsoft 
+                        SQL Server Management for Database.</p>
+                </div>
+            </div>
+        </div>
+</section>
+
+<!-------projects------->
+<section id="projects" class="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list">
+                <div class="work">
+                    <img src="images.png">
+                    <div class="layer">
+                        <h2>E Voting System for Private Organization (C#.NET/MSSQL)</h2>
+                        <p>The app lets admin create a election with a maximum of 10 positions that having a realtime taly report with voter registration.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="eps10-black-atm-abstract-solid-icon-isolated-on-white-background-atm-machine-symbol-in-a-simple-flat-trendy-modern-style-for-your-website-design-logo-and-mobile-application-vector.jpg">
+                    <div class="layer">
+                        <h2>Simple Automated Teller Machine (C#.NET/Microsoft Access)</h2>
+                        <p>This app have a withdrawal and balance checking with history transtaction and receipt.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<!--------contacts-------->
+<section id="contact" class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1>Contact</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> eugenedavidtoledo9817@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+639854850130</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/yuhenyo9817" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/yuhenyo17" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="EUGENE_RESUME.docx" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="7" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+</section>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }111
+    </script>
+    <script>
+        
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+  
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwlic2V_qpdU5rqd6DxkI0_oNc77hQBWWbTk3A_U9bUogaGJEQP-RRryAlHOA0kN-3W/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully" 
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000) 
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html>
